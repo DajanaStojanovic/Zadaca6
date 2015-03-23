@@ -1,0 +1,209 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesen u Baranji</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/stil.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+ 
+      <div class="row">
+        <div class="large-12 columns">
+     
+          <!-- Navigation -->
+      <div class="navigacija">
+            <ul class="button-group">
+              <li><a href="#ukratko" class="button" id="ukratko">Ukratko</a></li>
+              <li><a href="#zaprege" class="button" id="smotra">Smotra svatovskih zaprega</a></li>
+              <li><a href="#beli" class="button" id="beli">Program Beli Manastir</a></li>
+            </ul>
+			
+     </div>
+          <!-- End Navigation -->
+     
+     
+          <!-- Header Content -->
+     
+            <div class="row">
+     
+              <div class="large-6 columns" id="jesen">
+     
+                <img src="img/jesen.jpg" /><br />
+				<!-- slika: http://osjecka.com/jesen-u-baranji-20-27-09-2014/  -->
+				
+     
+              </div>
+     
+     
+              <div class="large-6 columns" id="sakrij3">
+     
+                <h3 class="show-for-small"><hr/>   </h3>
+     
+                <div class="panel">
+                  <h4 class="hide-for-small"><a name="ukratko">Ukratko<a><hr/></h4>
+                <h5 class="subheader">Jesen u Baranji, kulturno-turisti&#269;ka manifestacija koju svake jeseni, u vrijeme kad baranjska ravnica daje obilje plodova, u Belom Manastiru. 
+		  Cilj manifestacije je da se afirmiraju kultura i turisti&#269;ke mogu&#263;nosti Grada Belog Manastira i Baranje, a to se posti&#158;e kroz prezentiranje gastronomskih specijaliteta, prikaz djelatnosti malih poduzetnika i obrtnika, izlo&#158;be slika i rukotvorina te prikazivanje narodnih obi&#269;aja i folklora.</p>
+     
+	 <p><b>Prelazeći preko navigacije vidjet ćete što će se dogoditi.
+	 </p> Dva puta kliknite na fotografiju pored pa onda opet jednom. </p></b></p> </h5>
+                </div>
+     
+         
+     
+              </div>
+     
+            </div>
+     
+      
+     <hr />
+           
+     
+              <div class="large-6 small-9 columns" id="sakrij1">
+                <img src="img/fijaker.jpg" id="slika1"/>
+				<!--http://www.glas-slavonije.hr/galerija/139/Jesen-U-Baranji-2013/11-->
+                <div class="panel" >
+				<h4> <a name="zaprege">Smotra svatovskih zaprega</a> </h4>
+				<hr />
+                   <ul id="smotra1"> <li> Otvorenje 5. Smotre svatovskih zaprega </li>
+
+<li>Izbor najljep&#353;e zaprege, jaha&#269;a i jaha&#269;ice</li>
+<li> Revijalna vo&#158;nja &#269;unjeva u preciznosti</li>
+ <li>Revijalna vo&#158;nja u brzini</li>
+ <li>Tekli&#269;ko jahanje</li>
+<li>Tehni&#269;ko jahanje u precizonsti prepreka</li>
+<li>Baranjska alka</li> </ul>
+
+
+<p><b>Do&#273;ite mi&#353;em na tekst iznad kako biste vidjeli lipe sna&#353;e </b></p></ul>
+                </div>
+              </div>
+     
+              <div class="large-6 small-9 columns" id="sakrij2">
+                <img src="img/fis.jpg" /> <!--slika: http://www.glas-slavonije.hr/176020/4/Fis-kuhali-u-55-kotlica -->
+				
+                <div class="panel">
+				<h4><a name="beli"> Program Beli Manastir</a> </h4>
+				<hr />
+                  <ul><li>''Jabuka, kraljica jeseni'' - Dje&#269;je radionice</li>
+
+<li>Fi&#353;ijada </li>
+
+<li>Slu&#158;beno otvorenje manifestacije Jesen u Baranji</li>
+
+<li>Gastro ponuda u &#353;atoru
+</li>
+<li>TS Ladovina</li>
+
+<li>Progla&#353;enje pobjednika Fi&#353;ijade</li>
+<li>Retrospektiva </li> </ul>
+<p><b> Kliknite jednom na sliku iznad, pa onda dva puta</b></p>
+                </div>
+              </div>
+     
+          
+     
+            </div>
+
+     
+      <footer class="row">
+           
+     
+              <hr />
+                      <p class="potpis">&copy; Diana</p>
+                  
+     
+                 
+     
+               
+          </footer>
+        </div>
+      </div>
+
+  
+   <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+	  
+	  $(document).ready(function(){ 
+	  $("#smotra1").mouseenter(function(){
+				$("#slika1").attr("src","img/moja.jpg");
+			});
+			 $("#smotra1").mouseleave(function(){
+				$("#slika1").attr("src","img/fijaker.jpg");
+			});
+		
+		$("#ukratko").mouseover(function() {
+		$("#sakrij1").hide("slow",function(){
+		});
+		$("#sakrij2").hide("slow",function(){
+		});
+		});
+		
+		$("#ukratko").mouseleave(function() {
+		$("#sakrij1").show("slow",function(){
+		});
+		$("#sakrij2").show("slow",function(){
+		});
+		});
+		
+		
+		$("#smotra").mouseover(function() {
+		$("#sakrij3").hide("slow",function(){
+		});
+		$("#sakrij2").hide("slow",function(){
+		});
+		});
+		
+		$("#smotra").mouseleave(function() {
+		$("#sakrij3").show("slow",function(){
+		});
+		$("#sakrij2").show("slow",function(){
+		});
+		});
+		
+		
+				$("#beli").mouseover(function() {
+		$("#sakrij3").hide("slow",function(){
+		});
+		$("#sakrij1").hide("slow",function(){
+		});
+		});
+		
+		$("#beli").mouseleave(function() {
+		$("#sakrij1").show("slow",function(){
+		});
+		$("#sakrij3").show("slow",function(){
+		});
+		});
+		
+		
+		
+		$("#sakrij2").click(function() {
+		$(".panel").css("background","white");
+		});
+		
+		$("#sakrij2").dblclick(function() {
+		$(".panel").css("background","#FFBB82");
+		});
+		
+		$("#jesen").dblclick(function() {
+		$("body").css("background","white")
+		});
+		$("#jesen").click(function() {
+		$("body").css("background","#D1FA9D")
+		});
+		
+	  
+		
+		
+	  });
+	  
+	  
+    </script>
+  </body>
+</html> 

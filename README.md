@@ -1,6 +1,9 @@
 # Jesen u Baranji – Zadaća 1
 Na kolegiju Oblikovanje mrežnih stranica zadatak nam je bio napraviti web stranicu pomoću HTML tagova i CSS svojstva koje smo prethodno radili na predavanju.
 
+##Stranica
+>Klikom na ovaj <a href="http://oziz.ffos.hr/OMS20142015/0122215826/vjezba12/">link</a> možete vidjeti kako stranica izgleda.
+
 ##O stranici
 ### Tehničke stvari
 >Stranica je nije valjana prema w3 validatoru zbog toga što profesor nije tražio da stranica bude valjana. Pomoću ove web stranice smo vježbali izradu respoznivne web stranice u Foundation framework-u. Ujedno smo vježbali i raditi pomoću jQuery sintakse.  
